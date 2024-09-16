@@ -1,6 +1,14 @@
 pipeline { agent any tools { maven 'MAVEN_HOME' }
 
 stages{
+
+{
+	agent any
+	tools 
+	{
+	   maven 'MAVEN_HOME'
+	}
+}
 	stage('Welcome Stage')
 	{
 		steps
