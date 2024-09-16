@@ -19,7 +19,7 @@ pipeline
 		{
         		steps 
 			{                
-           			 git 'https://github.com/hkshitesh/DEVOPS-B25.git'
+           			 git 'https://github.com/ranjansigdel/DEVOPS-B25.git'
         		}
 		}
 		stage('Clean Stage')
